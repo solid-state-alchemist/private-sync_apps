@@ -1,3 +1,4 @@
+#language = "quickjs"
 #title = "一致する行を除外"
 #tooltip = "文書全体から一致する行を除外します。"
 /*

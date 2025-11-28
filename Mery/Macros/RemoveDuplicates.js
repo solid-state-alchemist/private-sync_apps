@@ -1,3 +1,4 @@
+#language = "quickjs"
 #title = "重複行の削除"
 #tooltip = "選択範囲または文書全体から重複行を削除します。"
 #include "Common.js"
@@ -22,5 +23,5 @@ doMultiEdit(function() {
 			map[line] = obj;
 		}
 	}
-	sel.Text = result.join('\n') + RegExp.lastMatch;
+	sel.Text = result.join('\n') + (sel.Text.endsWith('\n') ? '\n' : '');
 }, !isEmpty);

@@ -36,11 +36,13 @@ Mery は、テキスト編集を簡単で楽しいものに変えるシンプル
 - Mery.exe: アプリケーション本体
 - merycfg.dll: 編集モード ライブラリ
 - meryres.dll: リソース ライブラリ
-- libhunspell.dll: スペル チェック ライブラリ
 - onig.dll: 鬼車正規表現ライブラリ
 - onigmo.dll: 鬼雲正規表現ライブラリ
 - migemo.dll: C/Migemo ライブラリ
 - tidy.dll: HTML 整形ライブラリ
+- libhunspell.dll: スペル チェック ライブラリ
+- uchardet.dll: エンコード検出ライブラリ
+- qjs.dll: QuickJS ライブラリ
 - WebView2Loader.dll: WebView2 ライブラリ
 - Macros/: マクロ フォルダー (サンプルマクロを含む)
 - Plugins/: プラグイン フォルダー (サンプルプラグインを含む)
@@ -49,7 +51,6 @@ Mery は、テキスト編集を簡単で楽しいものに変えるシンプル
 - dict/: Migemo 辞書フォルダー
 - ThirdPartyNotices.txt: サードパーティ製コンポーネントのライセンス
 - eula.html: ソフトウェア使用許諾書
-- CHANGELOG.txt: 変更ログ
 - README.txt: 本ドキュメント
 
 ## インストール
@@ -112,6 +113,7 @@ C:\Documents and Settings\<UserName>\Application Data\Mery
 - [HTML Tidy](https://www.html-tidy.org/)
 - [Hunspell](https://hunspell.github.io/)
 - [uchardet](https://www.freedesktop.org/wiki/Software/uchardet/)
+- [QuickJS](https://github.com/quickjs-ng/quickjs)
 - [DOSCommand](https://github.com/TurboPack/DOSCommand)
 - [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons)
 

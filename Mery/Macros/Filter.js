@@ -1,3 +1,4 @@
+#language = "quickjs"
 #title = "一致する行を抽出"
 #tooltip = "文書全体から一致する行を抽出します。"
 #begingroup = true

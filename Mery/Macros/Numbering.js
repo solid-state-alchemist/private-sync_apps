@@ -1,3 +1,4 @@
+#language = "quickjs"
 #title = "番号の挿入"
 #tooltip = "カーソル位置に番号を挿入します。"
 #include "Common.js"

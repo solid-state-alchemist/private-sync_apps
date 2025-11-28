@@ -1,3 +1,4 @@
+#language = "quickjs"
 #title = "空行の削除"
 #tooltip = "選択範囲または文書全体から空行を削除します。"
 #include "Common.js"
@@ -18,5 +19,5 @@ doMultiEdit(function() {
 			result.push(lines[i]);
 		}
 	}
-	sel.Text = result.join('\n') + RegExp.lastMatch;
+	sel.Text = result.join('\n') + (sel.Text.endsWith('\n') ? '\n' : '');
 }, !isEmpty);
