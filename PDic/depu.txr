@@ -1,0 +1,54 @@
+﻿; Text Resource
+[TID_ORIGIN]
+
+; ================
+; Label Text
+
+
+; ================
+; Messages
+
+; ----------------
+; Gaiji Edit
+
+
+; ================
+; Messages
+
+; ----------------
+; EPWING - Document Select
+
+; Option labels
+IDS_EPDOCAnyConfig=任意設定
+IDS_EPDOCNoConversion=変換なし
+IDS_EPDOCReaders=リーダーズ+プラス
+IDS_EPDOCCrownGJ=クラウン独和
+IDS_EPDOCCrownFJ=クラウン仏和
+
+; Messages
+IDS_EPDOCSelectDocUsed=辞書に使用したい文書を選択してください(複数可能)
+IDS_EPDOCNoEPWINGFile=EPWING/EBファイルは指定されていません
+IDS_EPDOCSelectOneOrMore=１つ以上文書を指定してください
+
+; ----------------
+; EPWING - message/caption
+
+MSG_CannotOpenEPWING=EPWING/電子ブックが開けません
+MSG_CannotFindGaijiFile=外字ファイルが見つかりません（使用していません）
+MSG_GaijiConvTableChangedQuery=変換テーブルが変更されています.保存しますか？
+CAP_SaveGaijiConvTable=外字変換テーブルの保存
+MSG_NoCP1252CP932=CP1252.TXT, CP932.TXTが見つからないため、すべてUnicodeで保存されます。
+MSG_CannotSaveZenkakuGaiji=全角外字が保存できませんでした
+MSG_CannotSaveHankakuGaiji=半角外字が保存できませんでした
+MSG_IllegalHexaDecimalString=16進数表記に不正な文字があります.0-9A-Zの文字のみ使用できます
+CAP_GaijiConvTableChanged=*変更あり
+CAP_EditGaijiConvTable=外字変換テーブルの編集
+CAP_EPWINGConvert=辞書の変換
+MSG_CannotFindIndex=[%s]\rこの文書からは前方一致インデックスが見つからないので、スキップします
+MSG_CannotOpenCDROM=CD-ROMがオープンできません[%s]
+
+; ----------------
+; EPWING - Convert options
+
+IDS_EPOPTStop=停止(&V)
+MSG_EPOPTNoEPWINGFile=EPWING/EBﾌｧｲﾙが指定されていません
