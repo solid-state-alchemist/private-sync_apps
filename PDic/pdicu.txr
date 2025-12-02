@@ -1,0 +1,1048 @@
+﻿; Text Resource
+[TID_ORIGIN]
+
+;TODO:
+; MSG_SearchAllTextWarningを削除
+
+; ================
+; System
+
+Language=Japanese
+;MainFont=Meiryo UI
+
+; ================
+; Common
+
+IDS_ALL=すべて
+
+; ================
+; Label Text
+
+INITIAL_GROUPNAME=Group
+KEYWORDTRANS_NAMEx=(使用しない)
+KEYWORDTRANS_NAME0=旧式
+KEYWORDTRANS_NAME1=標準
+KEYWORDTRANS_NAME2=単純
+KEYWORDTRANS_NAME3=Generic
+KEYWORDTRANS_NAME4=チェコ語(試作版)
+KEYWORDTRANS_NAME5=チェコ語
+KEYWORDTRANS_NAME6=ロシア語(試作版)
+ITEM_NO=No.
+ITEM_ATTR=属性
+ITEM_WORD=見出語
+ITEM_PRON=発音記号
+ITEM_LEVEL=ﾚﾍﾞﾙ
+ITEM_JAPA=訳
+ITEM_JAPA2=訳語
+ITEM_EXP=用例
+ITEM_FILECONT=ファイル内容
+ITEM_FILENAME=ファイル名
+ITEM_TITLE=ｵﾌﾞｼﾞｪｸﾄﾀｲﾄﾙ
+ITEM_ALL=見出語+訳+用例
+
+LABELING=ラベリング
+
+Words=語
+Chars=文字
+Bytes=バイト
+Memory=暗
+JEdit=修
+Second=秒
+Block=Blk
+
+; Word Test
+WTEST_ENTRY=第 %d / %d
+
+; Dictionary convert configuration dialog
+
+CVTCFG_DT_SRC=PDIC形式\tCSV形式\t辞郎形式\tEPWING/電子ブック\tPDICﾃｷｽﾄ形式\tPDIC１行ﾃｷｽﾄ形式
+CVTCFG_DT_DEST=PDIC形式\tCSV形式\tPDICﾃｷｽﾄ形式\tPDIC１行ﾃｷｽﾄ形式\tXML形式
+
+; File Save Dialog
+FileSaveDlgCharCode=ANSI (ShiftJIS)\tUNICODE\tUNICODE (BigEndian)\tUTF-8
+
+; Other
+
+IDS_FILTER1=辞書(*.dic)|*.dic|ﾃｷｽﾄ(*.txt)|*.txt|CSV形式(*.csv)|*.csv|EPWING/EB(Catalog*.*)|Catalog*.*|すべて(*.*)|*.*|
+IDS_FILTER2=実行ﾌｧｲﾙ(*.exe)|*.exe|すべて(*.*)|*.*|
+IDS_FILTER3=DLL(*.dll)|*.dll|すべて(*.*)|*.*|
+IDS_FILTER4=INF(*.inf)|*.inf|すべて(*.*)|*.*|
+IDS_FILTER5=WAVEﾌｧｲﾙ(*.wav)|*.wav|すべて(*.*)|*.*|
+IDS_FILTER6=EPWING(catalog*.*)|catalog*.*|すべて(*.*)|*.*|
+IDS_FILTER7=設定ﾌｧｲﾙ(*.ini)|*.ini|すべて(*.*)|*.*|
+IDS_FILTER8=変換ﾃｰﾌﾞﾙ(*.tbl)|*.tbl|すべて(*.*)|*.*|
+IDS_FILTER9=ﾃｷｽﾄ(*.txt)|*.txt|すべて(*.*)|*.*|
+IDS_DICFILTER=辞書(*.dic)|*.dic|すべて(*.*)|*.*|
+IDS_TEXTFILTER=ﾃｷｽﾄ(*.txt)|*.txt|すべて(*.*)|*.*|
+IDS_TEXTRTFFILTER=テキスト(*.txt)|*.txt|リッチテキスト(*.rtf)|*.rtf|すべて(*.*)|*.*|
+IDS_TINYDIC=ﾀｲﾆｨ辞書
+IDS_SMALLDIC=ｽﾓｰﾙ辞書
+IDS_MEDIUMDIC=ﾐﾃﾞｨｱﾑ辞書
+IDS_LARGEDIC=ﾗｰｼﾞ辞書
+IDS_DELETEDIC=選択した辞書を登録から削除してよろしいですか？
+IDS_DELETEDICGRP=選択している辞書グループを登録から削除してよろしいですか？
+IDS_DELETEWORD=単語を削除してもよろしいですか？
+IDS_UNKNOWNDICSIZE=Hyper
+IDS_DELETEREC=<%s>は登録から削除されます.よろしいですか?
+IDS_JMERGE1=訳語部をﾏｰｼﾞ(問合わせあり)
+IDS_JMERGE2=長い方の訳語を採用
+IDS_JMERGE3=変換先優先(=新規登録のみ)
+IDS_JMERGE4=変換元に置き換える(問合わせあり)
+IDS_JMERGE5=付け加える(区切り文字付き)
+IDS_JMERGE6=改行付きで付け加える
+IDS_OVERTXT=OVER.TXT
+IDS_WTESTBTN3_0=&3 思い出せない (;_;)
+IDS_WTESTBTN3_1=&3 覚えたよ～(^o^)
+IDS_OBJTYPE1=OLEｵﾌﾞｼﾞｪｸﾄ
+IDS_OBJTYPE2=ﾌｧｲﾙｵﾌﾞｼﾞｪｸﾄ
+IDS_OBJTYPE3=WAVEｵﾌﾞｼﾞｪｸﾄ
+IDS_MENUOBJECT=ｵﾌﾞｼﾞｪｸﾄ
+IDS_MENUCUT=ｶｯﾄ
+IDS_MENUCOPY=ｺﾋﾟｰ
+IDS_MENUCLEAR=ｸﾘｱ
+IDS_MENULINK=ﾘﾝｸ...
+IDS_MENURCOPY=範囲ｺﾋﾟｰ\tCtrl+C
+IDS_MENURCOPYPASTE=範囲単語検索
+IDS_NORMALORDER=ｺｰﾄﾞ順
+IDS_IGNORDER=大文字小文字同一視
+IDS_DICORDER=辞書順
+IDS_DESCENDINGORDER=降順
+IDS_COMPDIC=<圧縮対応>
+IDS_BOCU1DIC=<BOCU1>
+IDS_EDIT=編集...
+IDS_INFORMATION=ﾌｧｲﾙ情報/編集...
+IDS_EDITFILENAME=ﾌｧｲﾙ名変更...
+IDS_MOVEPROFILE=16bit版PDICWのﾌﾟﾛﾌｧｲﾙをｺﾋﾟｰして利用しますか？
+IDS_MOVEPROFILE32=32bitβ版PDICWのﾌﾟﾛﾌｧｲﾙ(PDICW32.INI)をﾚｼﾞｽﾄﾘに登録しますか？
+IDS_SYSAUTOSRCH=自動検索ON/OFF\tAlt+A
+IDS_VIONLYNAME=ﾌｧｲﾙ名のみ
+IDS_VIICONIC=ｱｲｺﾝ表示
+IDS_VIDISPOBJ=内容表示
+IDS_PLAYVOICE=音声再生(&V)\tAlt+Enter
+IDS_EXECOBJ=ｵﾌﾞｼﾞｪｸﾄ実行(&V)\tAlt+Enter
+IDS_PLAYTTS=人工音声再生\tCtrl+R
+IDSF_PDIC=PDIC形式
+IDSF_PDICTEXT=PDICﾃｷｽﾄ形式
+IDSF_WX2TEXT=WX2+ﾃｷｽﾄ形式
+IDSF_LEVEL=ﾚﾍﾞﾙ形式
+IDSF_CSV=CSV形式
+IDSF_EXTPDICTEXT=1行ﾃｷｽﾄ形式
+IDSF_FENG5=「辞郎」形式
+IDS_SEARCH_DIC=探す(&S)
+IDS_NEW_DIC0=~新規作成(&N)
+IDS_NEW_DIC=新規作成(&N)
+IDS_TEMPLATE_DEFAULT_NAMES=1単語帳(訳語)\t2単語帳(英単語)\t3単語帳(レベル付き)\t4単語帳(発音記号付き)\t5単語帳(頻出順)\t6(未定義)\t7(未定義)\t8(未定義)\t9(未定義)
+
+IDS_NOTHING=(なし)
+IDS_SEARCHDIC=探す(&S)
+IDS_CREATEDIC1=~新規作成(&N)
+IDS_CREATEDIC2=新規作成(&N)
+IDS_OUTPUTINIFILENAME=出力INIファイル名
+IDS_INPUTINIFILENAME=入力INIファイル名
+IDS_LEVELTYPE1=■のみ
+IDS_LEVELTYPE2=■＋数値（外側）
+IDS_LEVELTYPE3=■＋数値（内側）
+IDS_EXECUTE=実行...
+IDS_SaveToFile=ファイルへ保存(&S)...
+IDS_OLEDATA=OLEｵﾌﾞｼﾞｪｸﾄ
+IDS_WAVEDATA=音声ﾃﾞｰﾀ(WAVE)
+IDS_WAVELINKDATA=音声ﾃﾞｰﾀ(LINK)
+IDS_ANKI=[暗記]
+IDS_AUTOSEARCH_ON=自動検索-ON(&A)
+IDS_AUTOSEARCH_OFF=自動検索-off(&A)
+IDS_LINENUMBER=行番号：
+IDS_DETOUTFORMATS=PDIC形式\tCSV形式\tPDIC１行ﾃｷｽﾄ形式\tﾕｰｻﾞｰ定義形式
+IDS_EXTOUTFORMATS=なし\tPDIC形式\tPDICﾃｷｽﾄ形式\tWX2+ﾃｷｽﾄ形式\t単語ﾚﾍﾞﾙ形式\tCSV形式\t１行ﾃｷｽﾄ形式\t辞郎形式
+IDS_COMMON_NAME=共通
+IDS_OBJECT_NAME=ｵﾌﾞｼﾞｪｸﾄ
+IDS_SEARCHWINDOW=検索ウィンドウ
+IDS_SEARCH_POS=を含む\tで始まる\tで終わる\tを含まない\tで始まらない\tで終わらない
+IDS_NEXT=次へ(&I)
+IDS_LEVELLABELS=なし\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10\t11\t12\t13\t14\t15\t
+IDS_NOTHING_COLON=なし:
+IDS_LEVEL_NUM_COLON=ﾚﾍﾞﾙ%d:
+IDS_NUM_TEST=出題語数
+IDS_NUM_CORRECT=正解語数
+IDS_CHANGEFONT=ﾌｫﾝﾄ...
+
+IDWT_BUTTON1=完全に覚えた
+IDWT_BUTTON21=やっぱり覚えていた
+IDWT_BUTTON22=ちょっと不安
+IDWT_BUTTON3=思い出せない
+IDWT_ITSRIGHT=正解！
+IDWT_ITSNOTRIGHT=違います！
+IDWT_CORRECTNUMBER=正しい単語数に設定してください
+IDWT_CANTFINDANYMORE=これ以上見つかりません
+IDWT_BUTTON_SPELLCHECK=&1 ｽﾍﾟﾙﾁｪｯｸ
+IDWT_BUTTON_IDENTIFY=&1 確認した
+IDWT_BUTTON_COMPLETE=&1 完全に覚えた(^^)
+IDWT_BUTTON_HINT=&2 ヒント
+IDWT_HINT_LEN=ﾋﾝﾄ:正解単語の文字数は%dです.
+IDWT_HINT_BEGIN=ﾋﾝﾄ:先頭から%d文字は...
+IDWT_HINT_END=これが正解です！
+
+; ================
+; Font
+
+DEF_FONT_NAME=ＭＳ Ｐゴシック
+DEF_FONT_NAME2=Meiryo UI
+DEF_PRON_FONT_NAME=Lucida Sans Unicode
+
+; ================
+; Color
+
+ColorNameSystem=ｼｽﾃﾑ
+ColorNameBlack=黒
+ColorNameMaroon=栗色
+ColorNameGreen=緑
+ColorNameOlive=ｵﾘｰﾌﾞ
+ColorNameNavy=濃紺
+ColorNamePurple=紫
+ColorNameTeal=緑青
+ColorNameGray=灰色
+ColorNameSilver=銀
+ColorNameRed=赤
+ColorNameLime=黄緑
+ColorNameYellow=黄
+ColorNameBlue=青
+ColorNameFuchsia=明紫
+ColorNameAqua=水色
+ColorNameWhite=白
+ColorNameAny=任意
+
+; ================
+; Web Search
+IDS_DefWebSearchSites=Googleで検索\thttp://www.google.co.jp/search?hl=ja&q=&C($w,utf8)&lr=\tgoo辞書で検索\thttp://dictionary.goo.ne.jp/srch/all/&C($w,utf8)/m0u/\tウィキペディアで検索\thttp://ja.wikipedia.org/wiki/&C($w,utf8)\tWiktionaryで検索\thttp://en.wiktionary.org/wiki/&C($w,utf8)\tweblioで検索\thttp://www.weblio.jp/content/&C($w,utf8)\tweblio(英和・和英辞典)で検索\thttp://ejje.weblio.jp/content/&C($w,utf8)\tOxford Learner's Dictionaries\thttps://www.oxfordlearnersdictionaries.com/definition/english/&C($w,utf8)?q=&C($w,utf8)\tLONGMAN\thttps://www.ldoceonline.com/dictionary/&C($w,utf8)
+MSG_WebSearchInitialize=次のWebサイトを初期値に戻します。\r\n（同じ名前のURLが上書きされます）\r\n\r\n%s\r\nよろしいですか？
+
+; ================
+; File Names
+
+FILE_PRON_TABLE=PRON.TBL
+FILE_LABELS=Labels.txt
+SAMPLEDIC=Sample.dic
+SAMPLEGROUP=サンプル
+IrregDic=IrregDic.txt
+IrregDicAdd=IrregDicAdd.txt
+UserDic=User.dic
+DEFAULTGROUP=標準
+GROUPNAME_SUFFIX=辞書
+
+; ================
+; Messages
+
+ERROR=エラー
+DIC_ERROR=辞書エラー
+Fatal=致命的エラー
+
+MSG_Completed=処理が正常に終了しました
+MSG_Error=エラーが発生しました
+
+MSG_UpDownError=数値が正しくありません。%d～%dの範囲を指定してください。
+
+MSG_SUGGESTING=もしかして・・・ 
+
+; ----------------
+; Main Window
+
+MSG_DicBrokenWarning=辞書に異常があります。[CLICK]
+MSG_InetDicWarning=ネット共有辞書でエラーがあります。[CLICK]
+MSG_InetDicNewData=ネット共有辞書で新しいデータがあります。[CLICK]
+MSG_InetDicNewWord=ネット共有辞書に新着単語があります。[CLICK]
+MSG_InetDicNotify=ネット共有辞書から新しいお知らせがあります。[CLICK]
+MSG_DicVupNotify=辞書の新しいバージョンが公開されています。[CLICK]
+MSG_DicEncNotExpired=使用期限のついた辞書があります。パスワードを入力すると期限設定が解除されます。[CLICK]
+
+MSG_NotPasswordMatched=パスワードが違います
+
+MSG_InetDicDownloading=Downloading..
+MSG_InetDicUploading=Uploading..
+
+MSG_RebootPdic=設定を変更したのでPDICを再起動します。
+CAP_DokoSearch=どこでも検索
+MSG_DokoSearchNote=この機能は、PDIC以外のアプリケーション上でキー入力をすると、\r\nそのキー入力に応じてWORD欄でインクリメンタルサーチを行います。\r\nPDICにわざわざ切り替える手間が無くなります。\r\n\r\n【注意】 パスワード入力時にもWORD欄に入力された文字が表示されてしまいます\r\n・パスワードを盗み見られないようにする\r\n・必要なときのみどこでも検索を有効にする\r\nなど、予めご注意ください。
+
+; ----------------
+; Dictionary Messages
+
+MSG_DICERROR_FIRST=
+MSG_NOTFIND=<%s>辞書(またはﾌｧｲﾙ)がオープン出来ません
+MSG_MEMORY=辞書が一杯になりました(ｲﾝﾃﾞｯｸｽ部のﾒﾓﾘ不足)
+MSG_DICFULL=辞書が一杯になりました.
+MSG_DISKFULL=ディスクの容量が不足しました.
+MSG_RWERROR=読み・書きエラーが発生しました.
+MSG_DICVER=<%s>辞書のバージョンが違います.
+MSG_NOTREADY=ディスクが準備できていません.
+MSG_OPENED=<%s>既にオープンされています.
+MSG_READONLY=<%s>読み取り専用ファイルはオープンできません.
+MSG_TOOOPEN=オープンするファイルが多すぎます.
+MSG_MEMORY2=メモリが不足しています.
+MSG_DUPDIC=<%s>同じ辞書を２つ以上指定しています.
+MSG_DIFVER=異なるバージョンの辞書を指定しています.
+MSG_NOTCREATE=<%s>新規作成できませんでした.
+MSG_EXPIRED=<%s>使用期限が切れています
+MSG_NOTOPEN=<%s>オープンできません.
+MSG_SHARE=<%s>は他で使用しているので利用できません
+MSG_DISKERR=ディスクが読めません.
+MSG_NOTPDIC=<%s>PDIC用の辞書ではありません
+MSG_NETWORKERROR=ネットワークエラーが発生しました
+MSG_OLEINIT=OLE2の初期化に失敗しました(ﾃﾝﾎﾟﾗﾘﾃﾞｨｽｸ容量不足?)
+MSG_NOTOPENED=辞書がオープンされていません(PRG ERROR)
+MSG_READONLYWRITE=読取り専用ファイルに書き込みは出来ません
+MSG_RECORDLOCKED=現在他で処理中のため実行できません
+MSG_DicMsgReserved25=
+MSG_DicMsgReserved26=
+MSG_NOTWRITEOLD=辞書のバージョンが古いので更新できません
+MSG_DICID=サポートされていない辞書タイプです
+MSG_TOOLONG=データが大きすぎて登録できません
+MSG_DIFFDICTYPE=異なる辞書タイプを同時に利用できません
+MSG_MAYCORRUPT=辞書が壊れている可能性があります
+MSG_NOAVAILINDEX32=32bitインデックスを扱うことが出来ません
+MSG_NOTFOUNDDEPW=DEPU.DLLが見つかりません、またはバージョンが違います.
+MSG_NOTOPENEPWING=EPWINGﾌｧｲﾙが見つかりません、または開けません<%s>
+MSG_INVALIDFILENAME=ファイル名<%s>に誤りがあります
+MSG_NOTCREATETEMPFILE=ネット共有辞書用のテンポラリファイルを作成できません
+MSG_TOOLONGWORD=見出語部が長すぎます
+MSG_HEADERCHECKSUM=ヘッダのチェックサムが正しくありません
+MSG_NoLangProc=対応する言語プロセッサが見つかりません
+MSG_TOOOLDDIC=古い辞書であるため実行できません
+MSG_DicMsgNoDLL=DLLが見つかりません(InetDic.dll)
+MSG_NoInetDicUrl=ネット共有辞書用のURLがありません\r\n<%s>
+MSG_FormatError=対応できないフォーマットです
+MSG_GenChanged=Generation code is changed
+MSG_DicLast=
+
+MSG_DicParameter=Dictionary Parameter Error
+
+MSGOPT_DISKERROR=ディスクアクセスでエラーが発生しました\n辞書が正しくありません
+MSGOPT_TEMPREMAIN=バッファにデータが残っています.\n一部のデータが失われました
+MSGOPT_LOSTBLOCK=空きブロックが存在しています.\n一部のデータが失われました
+
+; ----------------
+; Dictionary Open
+
+MSG_DicOpenSomeError=いくつかの辞書がエラーのため開けませんでした。\n通常通り使用することはできますが、期待される検索結果・動作が得られません。\nFile - 辞書設定<詳細>で設定を確認してください。
+MSG_DicOpenNotOpened=辞書を開くことができませんでした。\nFile - 辞書設定<詳細>で設定を確認してください。
+MSG_NoDicFolder=辞書のフォルダが存在しません。Tools - 設定 - 動作環境 - フォルダの設定 - 辞書のデフォルトパス を確認してください。
+
+; ----------------
+; Dictionary Check
+
+IDCHK_READERROR=読み込みエラーが発生しました.\n中止します.
+IDCHK_NOTIDENTPBNLBN=Fatal:ｲﾝﾃﾞｯｸｽとﾃﾞｰﾀﾌﾞﾛｯｸが一致していません.\npbn:[%d] lbn:[%d] Index:[%s] <> Block:[%s]
+IDCHK_NOTFINDEND=Warning:ﾌﾞﾛｯｸの終端が見つかりません
+IDCHK_TOOLONGWORDJAPA=Fatal:見出語部＋訳語部が長すぎます[%d > %d]
+IDCHK_TOOLARGEALEN=Fatal:圧縮文字数[a=%d]が大きすぎます
+IDCHK_TOOLONGWORD=Fatal:見出語部が長すぎます[%d > %d]
+IDCHK_TOOLONGWORDRECORDED=Fatal:単語が登録された長さより長すぎます[%d > %d]
+IDCHK_ILLEGALJAPAEND=Warning:訳語部終端が異常です
+MSG_NOTYETSUPPORTED=この修復はまだサポートされていません
+IDCHK_WRITEERROR=書き込み中にエラーが発生しました.中止します
+IDCHK_CHECKLINK=ﾘﾝｸ状態を調べています
+IDCHK_ILLEGALBLOCK=空きブロックが不正なブロックを示しています[pbn:%d->%d]
+IDCHK_MODIFY=修正します
+IDCHK_EMPTYBLOCKUSED=空きブロックが使用されています。[pbn:%d]
+IDCHK_LINKTOTHIS=空きブロックのリンクが自分自身を指しています。[pbn:%d]
+IDCHK_UNLINKBLOCK=Fatal:リンクされていないデータブロックです
+IDCHK_UNLINKEMPTYBLOCK=Fatal:リンクされていない空きブロックです.
+IDCHK_ILLEGALPBN=インデックスが不正な物理ブロック番号を示しています.[lbn:%d][pbn:%d]
+IDCHK_OUTOFPBN=存在しない物理ブロック番号を示しています.
+IDCHK_DATAZERO=データブロックの先頭が 0 です。[lbn:%d pbn:%d]
+IDCHK_LINKISNORMAL=ﾘﾝｸに異常はありませんでした
+IDCHK_DISKERROR=ディスクアクセスでエラーが発生しました
+IDCHK_TOOLARGEINDEX=インデックスが許容量を越えています\n一部のデータが失われている可能性が有ります
+IDCHK_FORM1=pbn:[%d]*%d  lbn:[%d] cp:[%04Xh] => off:[%08Xh]
+IDCHK_CHECKEMPTYBLOCK=空ﾌﾞﾛｯｸのﾘﾝｸをﾁｪｯｸしています
+IDCHK_CHECKUNBLOCK=未使用ﾌﾞﾛｯｸをﾁｪｯｸしています
+IDCHK_CHECKINDEXBLOCK=使用ﾌﾞﾛｯｸのﾘﾝｸをﾁｪｯｸしています
+IDCHK_NORMAL=辞書に異常はありませんでした
+IDCHK_CHECKSUM_BROKEN=辞書が正常ではありません。インストールを再度やり直すか、提供元にお問い合わせください。
+IDCHK_CANCEL=中止しました
+IDCHK_DUPBLOCK=使用ブロックが重複しています
+IDCHK_DELLBN=重複論理ﾌﾞﾛｯｸを削除します
+IDCHK_RELINK=リンクがループしています
+IDCHK_REPAREDIC=辞書修復
+IDCHK_REPARENOTATION=辞書の修復は、壊れた辞書からできる限り有効なデータを拾い上げて一時的な辞書に出力します。\n\n出力ファイル名：%s\n\n辞書修復を開始しますか？
+IDCHK_CANOVERWRITE=すでに同じファイルが存在します.\n上書きしてよろしいですか？
+IDCHK_REPARECOMPLETE=修復は完了しました. 修復した辞書に置き換えますか？
+IDCHK_REPARECOMPLETE2=修復した辞書に置き換えました.\n辞書の内容を確認して修復されていることを確認してください。\n\nファイル名：%s\n\nなお、修復により登録語数が減ったり、なるべく多くのデータを拾い上げるようにしてあるので、"ゴミ"が含まれる場合があります.\n壊れた辞書は %s にコピーしました。
+IDCHK_REPARECOMPLETE3=辞書グループに登録された辞書は壊れた辞書のままです。\nFile - 辞書設定<詳細> にて手動で設定を行ってください。
+IDCHK_REPARECOMPLETE_NG=辞書の置き換えができませんでした(%d)\nFile - 辞書設定<詳細> にて手動で設定を行う必要があります。
+IDCHK_REPAREDDICNAME=修復したの辞書の出力先ファイル名
+
+; ----------------
+; Network Dictionary
+
+MSG_WaitForNetClose=ネット共有辞書を閉じています...
+
+; ----------------
+; Popup Window
+
+IDS_COPYSRCHWORD=検索語のコピー
+IDS_RECORDWORD=単語の登録...
+IDS_SEARCHMAIN=本体で検索
+IDS_WEBSEARCH=Webで検索
+IDS_TOPSW=ﾎﾟｯﾌﾟｱｯﾌﾟ検索ｳｨﾝﾄﾞｳへ
+IDS_PRECORDWORD=複数単語の登録...
+IDS_PSCONFIG=設定...
+IDS_PSPLAYTTS=人工音声再生
+
+MSG_PSCANNOTREADMORE=途中までしか読み込めませんでした
+MSG_PSCANNOTREADALL=すべてのテキストを読み込めませんでした
+MSG_CANNOTEXECUTE=ｺﾏﾝﾄﾞに誤りがあるため実行できません
+
+MSG_PSW_DidNotOpenGroup=この機能を使用するには辞書グループが開いてある必要があります。PDIC本体の辞書グループ設定を確認して辞書が使用できる状態にしてください。
+
+MSG_PSW_WPM_Result=Words Per Minute は %d でした。\r\r  WPM = %d word(s) / %d:%02d
+MSG_PSW_WPM_StopQuery=WPM(Words Per Minutes)計測を停止しますか？
+CAP_PSW_WPM=WPM計測
+
+; ----------------
+; File Link
+
+IDS_FILELINKOpenError=<<Open Error : %s>>
+IDS_FILELINKCannotCreateTemp=<<Cannot create temporary file>>
+
+MSG_NoCopyMoveFolder=コピー/移動先のフォルダを指定してください。
+MSG_StillUnlinkedFile=指定されたフォルダは検索上のパスではありません。\nこのまま続けてもよろしいですか？
+MSG_CopyFileExistQ=コピー/移動先のフォルダにすでに同じファイルが存在します。\n上書きしてもよろしいですか？
+MSG_FailToCopyMove=ファイルのコピー/移動に失敗しました。
+
+MSG_SelectFolderForEmbFileLink=埋め込みファイルリンクがありました。フォルダを指定してください。(詳細はヘルプ)
+CAP_SelectFolderForEmbFileLink=ファイルリンク - 埋め込みファイルの保存先・読み込みフォルダ
+
+; ----------------
+; Search
+
+CAP_SearchAllText=見出し語関連検索
+MSG_SearchAllTextWarning=WORD欄が空であるため実行できません。\n見出し語関連検索はWORD部に入力された熟語の検索を行います。
+IDS_SearchBookmarkOrderNormal=登録順
+IDS_SearchBookmarkOrderReverse=登録逆順
+
+; ----------------
+; Search Advanced
+
+MSG_SearchAdvMemSaved=登録しました
+MSG_SearchAdvMemLoaded=読み出しました
+MSG_SearchAdvMemNotSaved=登録されていません
+
+; ----------------
+; Wizard messages
+MSG_WzdCancelQ=設定を中止しますか？
+
+; ----------------
+; Dictionary Wizard
+
+CAP_DictionaryWizard=辞書の設定
+URL_DictionaryLinks=http://pdic.la.coocan.jp/unicode/dic-links.html
+MSG_DicWzdNoSetupFile=辞書設定ファイルにpdsetup.iniファイルがないため実行できません
+MSG_DicWzdPdiExistQ=すでに%sは存在します。そのファイルの情報を利用しますか？\r\n「いいえ」を選択すると新規作成・上書きします
+MSG_DicWzdPdiPasswd=辞書設定ファイルのパスワードを入力してください。
+MSG_DicWzdIllCharGroupName=辞書グループ名に使用できない文字が含まれています。\\<>;:*?|/\"[]は使用できません。File - 辞書設定<詳細>から辞書グループ名の変更を行ってください。
+MSG_DicWzdReqUpgradeKey=配布用のキーが必要です。詳細はヘルプを参照してください。
+MSG_DicWzdInvalidUpgradeKey=配布用キーは英数字のみで、１８文字にしてください。
+MSG_DicWzdInvalidVersion=バージョンは数字とピリオドのみ使用してください。
+MSG_DicWzdReqURLWithPasswd=パスワードを設定する場合は、辞書サイトのURLを設定する必要があります。
+
+MSG_DicWzdMakingPdi=作成中です。。。大きな辞書を利用している場合は時間がかかります。
+CAP_DicWzdInputPassword=パスワードの入力
+MSG_DicWzdInputPassword=辞書の提供元から発行されているパスワードを入力してください。
+
+MSG_DicWzdNoDll=LiteZip.dll/LiteUnzip.dllが見つかりません
+MSG_DicWzdCreateFolderQ=指定したフォルダが存在しません。作成してよろしいですか？
+MSG_DicWzdFaildCreateFolder=フォルダの作成に失敗しました。正しく指定されているか確認してください。
+MSG_DicWzdNoDicFile=辞書ファイルが見つかりません。
+MSG_DicWzdUsePdiInstaller=辞書設定ファイルです。\r\n一つ前に戻り、「辞書のインストール」から行ってください。
+MSG_DicWzdUseDicSetting=対応したPDIC形式の辞書ではありません。\r\nFile - 辞書設定＜詳細＞から「既存辞書の追加」で追加を行ってください。
+MSG_DicWzdNoFileUsing=ファイルが見つかりません。または、ほかで使用しているため作成できません
+MSG_DicWzdFileWrite=ファイルの書き込みでエラーが発生しました
+MSG_DicWzdCorruptedFile=ファイルが壊れているため実行を中止しました
+MSG_DicWzdFileRead=ファイルの読み込みでエラーが発生しました
+MSG_DicWzdUnsupportedFile=サポートされていないファイル形式です
+MSG_DicWzdIllegalSetup=pdsetup.iniファイルが適切でないため実行できません
+MSG_DicWzdNoReadMeFile=辞書説明ファイルが見つかりません。
+MSG_DicWzdNoUserAddFile=ユーザー追加ファイルが見つかりません。
+MSG_DicWzdCopyFile=ファイルのコピーでエラーが発生しました
+MSG_DicWzdBackRetry=「戻る」ボタンを押してやり直してください
+
+
+MSG_DicWzdAutoGroupOverwriteQ=すでに同じ辞書グループが登録されています。追加で登録してもよろしいですか？
+MSG_DicWzdAutoAlreadyInstalled=すでに新しいバージョン(%s)がインストールされています
+MSG_DicWzdAutoDiffDicInstalled=異なる辞書がすでにインストールされています。\n辞書グループ名を変更してください。
+MSG_DicWzdAutoNoMoreGroupRegister=辞書グループにはこれ以上登録できません。不要な辞書グループを削除し、最初からやり直してください。
+MSG_DicWzdAutoGroupLimitQ=登録しようとしている辞書が３０以上あるため、それ以上の辞書は登録されません。\nよろしいですか？
+MSG_DicWzdAutoDicOverwriteQ=すでに同じ辞書ファイルが存在します。\n%s\nこの辞書ファイルを上書きしますか？
+
+MSG_DicWzdAutoUpToDate=すでに最新版がインストールされています。
+MSG_DicWzdAutoUpgradable=バージョンアップが可能です。
+MSG_DicWzdAutoNoDicList=登録されている辞書がありません。またはサーバーと接続できませんでした。
+
+MSG_DicWzdAutoDownloading=Downloading...
+MSG_DicWzdAutoDownloadCompleted=ダウンロードが完了しました。
+MSG_DicWzdAutoCouldNotCreateFile=ファイルを作成できませんでした。
+MSG_DicWzdAutoUnknownError=不明なエラー [%d]
+
+MSG_DicWzdAutoInetErr400=不正なリクエストです
+MSG_DicWzdAutoInetErr401=認証に失敗しました
+MSG_DicWzdAutoInetErr403=アクセス権限がありません
+MSG_DicWzdAutoInetErr404=ファイルが見つかりません
+MSG_DicWzdAutoInetErr407=Proxyの認証に失敗しました
+MSG_DicWzdAutoInetErr408=リクエストがタイムアウトしました
+MSG_DicWzdAutoInetErr500=サーバー内部エラー
+MSG_DicWzdAutoInetErr503=サーバーの過負荷のため、サービスを一時的に利用できません
+MSG_DicWzdAutoInetErr504=Gatewayでリクエストがタイムアウトしました
+
+MSG_DicWzdAddSameDicExists=すでに同じ辞書ファイルが登録されています。
+
+MSG_DicCvtWzdDestFile=変換後の辞書ファイル名を指定してください。
+MSG_DicCvtWzdSameFile=変換前と変換後のファイルが同じです。\n辞書が置き換わるため元に戻すことができなくなりますが、よろしいですか？
+MSG_DicCvtWzdOverWriteUseQ=変換先のファイルはすでに存在し、PDIC形式の辞書ファイルです。\r\n次から選んでください。\r\n\r\n上書きして変換を行う→はい\r\n\r\nすでに変換済みの辞書をそのまま利用する→いいえ
+MSG_DicCvtWzdOverWriteQ=変換後と同じファイルが既に存在します。上書きしてもよろしいですか？
+
+MSG_DicCvtWzdDeleteOldFileQ=変換前のファイルを削除しますか?\n削除するとPDIC for Win32で使用できなくなります。
+MSG_DicCvtWzdDeleteFileErr=ファイル削除ができませんでした
+
+; ----------------
+; Convert Dictionary Wizard
+
+MSG_DicCvtWzdConverting=変換処理を実行中です...
+MSG_DicCvtWzdCompleted=変換処理は正常に完了しました。
+MSG_DicCvtWzdCanceled=変換処理が失敗しました・キャンセルされました。
+
+; ----------------
+; Dictionary Setting
+
+MSG_DicSettingInvalidGroupName=辞書グループ名に使用できない文字が含まれています。\n辞書グループ名に /] は使えません
+MSG_DicSettingNotFound=辞書が見つかりません - 右クリックからプロパティを確認してください。
+MSG_DicSettingOldType=古い辞書形式です - 辞書を開くときに変換を行います。
+MSG_DicSettingUnknown=不明な辞書のため使用できません
+
+; ----------------
+; Dictionary Property
+
+CAP_InternetSharingConfig=ネット共有辞書設定
+MSG_PROPCannotFindDictionary=辞書ファイルが見つかりません。\nまず辞書ファイルを正しく設定、または作成を行ってください。
+MSG_CANNOTOPEN_NETCFGFILE=ネットワーク設定用のファイル[%s]を作成・オープンすることができません
+
+MSG_DicAddCompleted=辞書を登録しました。\r\r辞書ファイル名：%s\r辞書グループ：%s
+
+; ----------------
+; PDIC for Win32 Wizard (w32Wzd)
+
+MSG_TerminatePDICW32=PDIC for Win32を終了してください
+MSG_w32WzdNextToStart=次へボタンを押すと環境設定の移行を開始します。
+MSG_w32WzdNotItemSelected=設定がひとつも選択されていません。
+MSG_w32WzdLabelSaveToFile=ラベリングデータは\r\n%s\r\nに保存されます。
+MSG_w32WzdUserTempSaveToFile=ユーザー定義ファイルは\r\n%s\r\nに保存されます。
+MSG_w32WzdLabelConversionError=ラベリングの変換でエラーが発生しました。
+MSG_w32WzdUserTempConversionError=ユーザー定義テンプレートの変換でエラーが発生しました。
+MSG_w32WzdIrregDicRemoved=！不規則変化形辞書は削除されました。
+MSG_w32WzdIrregDicMsg=代わりとなる機能があるため設定は不要です。詳細はヘルプをご覧ください。
+MSG_w32WzdHistoryMoved=検索履歴ファイルを移動しました。
+MSG_w32WzdHistoryMovedName=移動先：
+MSG_w32WzdFailCopyFile=ファイルのコピーに失敗しました。\n%s:%d
+
+MSG_w32WzdSelectedFileNotExist=選択されているファイルは存在しません。ラベルのみです。
+
+; ----------------
+; Net Sharing Dictionary (Inet)
+
+IDS_INETDICCFG_STATUS=未登録単語数：%d 語 LastID：%d
+IDS_INETEDIT_WORD=見出語
+IDS_INETEDIT_STATUS=状態
+IDS_INETEDIT_ACTION=動作
+IDS_INETEDIT_DIC=辞書
+IDS_INETEDIT_PENDING=保留中
+IDS_INETEDITERR_SERVER=Sサーバエラー
+IDS_INETEDITERR_AUTH=U権限エラー
+IDS_INETEDITERR_BUSY=SサーバBUSY
+IDS_INETEDITERR_NOTFOUND=N見つからない
+IDS_INETEDITERR_PARAM=Sパラメータエラー
+IDS_INETEDITERR_DELETED=N削除されている
+IDS_INETEDITERR_EXIST=Uすでに登録されている
+IDS_INETEDITERR_CONFLICT=U衝突エラー
+IDS_INETEDITERR_FULL=SサーバFULL
+IDS_INETEDITERR_LIMIT=U登録データが長すぎます
+
+CAP_InternetSharing=ネット共有辞書
+
+;MSG_INETEDITNETERR_COMMU=通信エラーが発生しました(
+;MSG_INETEDITNETERR_USERID=ユーザーIDが間違っている、またはユーザーIDがサーバーに登録または承認されていません
+;MSG_INETEDITNETERR_PASSWORD=パスワードが間違っています
+;MSG_INETEDITNETERR_NOANONYMOUS=この共有辞書は匿名接続に対応していません
+;MSG_INETEDITNETERR_AUTH=権限エラー
+;MSG_INETEDITNETERR_SERVER=サーバー側でエラーが発生しています。サービス提供者に問い合わせてください
+;MSG_INETEDITNETERR_PARAM=サーバー側でエラーが発生しています(parameter error)。サービス提供者に問い合わせてください
+;MSG_INETEDITNETERR_BUSY=Server busy
+;MSG_INETEDITNETERR_LASTID=LastID不整合エラー
+;MSG_INETEDITNETERR_DLL=MSXML3.0(InternetExplorer6.0)がインストールされていない、またはINETDIC.DLLが見つからない
+;MSG_INETEDITNETERR_NOURL=No URL
+;MSG_INETEDITNETERR_FULL=サーバー側の辞書が一杯です。サービス提供者に問い合わせてください
+;MSG_INETEDITNETERR_PDIC_VERSION=PDIC側のバージョンが古いため、サーバーに接続できません
+;MSG_INETEDITNETERR_SERVER_VERSION=サーバーのバージョンが古いため、接続できません
+;MSG_INETEDITNETERR_LIMIT=長すぎる項目があるため、共有辞書に登録できません
+MSG_INETEDIT_LOCALEDIT=ローカル編集モードで動作中
+
+MSG_NetErrNetworkError=ネットワークエラーが発生しました(%d:%d)
+MSG_NetErrLastIdErrorQ=LastIDに不整合があり、共有辞書とデータのやりとりができません。サービス提供側の都合で環境を初期化した可能性があります。\nサービス提供側の変更でない場合は辞書設定の問題が考えられるためURLを確認してください。\nまた、リセットすることで問題は解決できますが、すべてのデータを再度ダウンローするため時間がかかる場合があります。\n\nリセットを実行してもよろしいですか？
+MSG_NetErrNewDownloadQ=ネット上の共有辞書に新しいデータが追加されています。(%s件)\nダウンロードを行いますか？
+
+MSG_NetErrURL=共有辞書のURLに誤りがあります。辞書設定で入力したURLが正しいか確認してください。正しい場合はサービス提供者に確認してください。
+MSG_NetErrAuth=認証に失敗しました。サービス提供者に確認してください。
+MSG_NetErrNoPrivilege=アクセス権限がありません。サービス提供者に確認してください。
+MSG_NetErrProxyPasswd=プロキシ設定にパスワードが必要です。ネットワーク管理者に確認してください。
+MSG_NetErrNetConfig=ネットワーク設定に誤りがあります。ネットワーク管理者に確認してください。
+MSG_NetErrServiceStop=サービスが一時的に停止されています。しばらくしてからやり直してください。
+MSG_NetErrTimeout=タイムアウトが発生しました。再度やり直してください。
+MSG_NetErrConflict=衝突が発生しました。再度やり直してください
+MSG_NetErrHTTPVer=サポートされていないHTTPバージョンです。サービス提供者に確認してください"
+MSG_NetErrUndefined=未定義エラー
+MSG_NetErrNotResolved=ドメイン名が解決できないため接続できませんでした。ネットワークの管理者にお問い合わせ下さい。\n考えられる原因としては、\n・インターネットへ接続できる環境になっているか？\n・DNSサーバーが正しく設定されているか\n・プロキシを必要とする環境の場合、プロキシが正しく設定されているか(IEの設定を利用)\nなどが考えられます。
+MSG_NetErrCannotConect=接続できませんでした。URLが正しいか確認してください。
+MSG_NetErrConflictQ=辞書データが衝突しています。内容を確認しますか？
+MSG_NetErrServerMantain=共有辞書サーバーがメンテナンス中であるため使用できません。\nしばらく経ってからやり直してください。
+MSG_NetErrServerError=共有辞書サーバーがエラーを返しました。\nしばらく経ってからやり直してください。\n再度発生する場合はサーバーの管理者に問い合わせて下さい。
+MSG_NetErrServerNoAnonymous=この共有辞書は匿名接続に対応していません
+MSG_NetErrServerFull=サーバー側の辞書が一杯です。サービス提供者に問い合わせてください
+MSG_NetErrPDICVersion=PDIC側のバージョンが古いため、サーバーに接続できません
+MSG_NetErrServerVersion=サーバーのバージョンが古いため、接続できません
+MSG_NetErrServerLimit=長すぎる項目があるため、共有辞書に登録できません
+MSG_NetErrFatal=致命的なエラーです。PDIC作者へ問い合わせて解決方法をご相談ください。
+MSG_NetErrCryptReq=この辞書はネット上で暗号化されているため、暗号化キーの設定が必要です。
+
+; ----------------
+; Batch Delete
+
+MSG_BatchDeleteQ=選択した単語を削除してもよろしいですか？
+
+; ----------------
+; Font Setting
+
+MSG_FontResetColors=文字色・背景色をシステム設定値に戻します。よろしいですか？
+CAP_FontChange=フォントの設定
+
+; ----------------
+; from depcom.rc
+
+MSG_CONFIRM_DISCARD=変更を破棄してもよろしいですか？
+MSG_CONFIRM_DELLOWER=下位層も保存しますか？
+MSG_CANNOTOPENFILE2=ﾌｧｲﾙをｵｰﾌﾟﾝできません
+MSG_CANNOTUSEOLE2=OLE2は使用できません！！
+MSG_CANNOTOUT_USERTEMPCFG=定義内容をファイルに出力することができません.\rPDICW32.EXEと同じディレクトリにある%sが、「読取専用」かCD-ROM上にある可能性があります.\rエクスプローラで「読取専用」を解除するか、PDICをハードディスク上にインストールしてください.
+MSG_QUERY_RELOAD=他でファイルが更新されました.新しい内容を読み込みますか？
+MSG_INPUTWEBNAME=Webサイト名を入力してください
+MSG_DUPLICATEWEBNAME=重複するWebサイト名は使用できません
+MSG_QUERY_DELETE= を削除してもよろしいですか？
+
+; ----------------
+; Convert Config Messages
+
+MSG_ConvertConfigNotSupported=この形式はサポートされていません。
+
+; ----------------
+; Word Test
+
+CAP_WORDTEST=単語テスト
+
+MSG_WORDTEST=単語テスト  検索中...
+MSG_WTNoDictionaryToChange=変更できる辞書が存在しません。\n辞書グループ編集でユーザー辞書を設定するか、編集禁止の設定を解除してください。
+MSG_WTMemorized=設定しました。
+
+; ----------------
+; General
+
+MSG_CannotOpenClipboard=クリップボードを開くことができませんでした。
+
+; ----------------
+; Object
+
+MSG_NotFoundFile=ファイルが見つかりません
+MSG_NotLinked=<<リンクされていません>>
+MSG_NotLinkedLabel=??? NOT LINKED ???
+MSG_DeleteObjectQ=選択したオブジェクトを削除してもよろしいですか？
+
+; ----------------
+; JEdit
+
+IDS_MERGE=ﾏｰｼﾞ(&M)
+IDS_REPLACE=置換(&R)
+
+MSG_ALREADYREC=すでに同じ単語が登録されています.\r\r[ﾏｰｼﾞ]･･･登録済み単語とﾏｰｼﾞ後再編集\r[置換]･･･登録済みの単語に上書き
+MSG_MODIFYWORD=見出語の修正
+
+MSG_MERGETOLOCAL=サーバー側の内容をローカル辞書へ追加します
+MSG_MERGETOSERVER=ローカル辞書の内容を変更していません。このままではサーバー側のデータが上書きされてしまいます。\r本当にこの内容で登録しますか？
+
+; ----------------
+; Dictionary Convert
+
+CAP_CONVERTING=辞書変換中...
+
+; ----------------
+; Application
+
+MSG_EXITPDIC=PDICを終了してから電源を切って下さい
+
+; ----------------
+; Web Search
+MSG_WEBSRCH_MAX_ITEMS=Web検索サイトは100個までです
+
+; ----------------
+; Other Messages
+
+UNDERCONSTRUCTION=Under Construction.
+NOTPDIC_CONVERT=PDIC用の辞書ではありません.PDIC用の辞書に変換しますか？
+OLDPDIC_CONVERT=%s\n古いバージョンのPDIC用辞書です.新しい辞書に変換しますか？
+TOOLARGE_TEXTDIC=サイズの大きいテキスト形式辞書は単語登録するたびに時間がかかります。それでもよろしいですか？
+CAP_OPENIRREGFILE=不規則変化辞書テーブルファイルの選択
+MSG_CANTEDIT_NOCHILDNODE=子の無いノードではオプションの編集はできません
+NOTFOUND_CCTABLEFILE=文字コード変換テーブルファイル(%s)が見つかりません
+WAIT_FOR_VUP=バージョン情報取得の終了を待っています。しばらくお待ちください。
+CAP_CLIPBOARD_COPY=クリップボードのコピー
+
+COMPRESS_ZLIB=圧縮中... ZLIB  %3d%%
+COMPRESS_RANGECODER=圧縮中... RangeCoder  %3d%%
+COMPRESS_AR=圧縮中... AR by H.Okumura  %3d%%
+
+MSG_NOGROUPDIC=辞書グループが登録されていません.\n辞書グループ作成を行います。
+MSG_DOMAKEDIC=辞書<%s>がありません.新規作成しますか？
+MSG_NOTFINDFILE=<%s>が見つかりません
+MSG_TESTSENTAKU=Japanese:???
+MSG_NEEDDESTINATION=変換先ﾌｧｲﾙ名が指定されていません
+MSG_KENSAKU=検索中・・・(中止はESC)
+MSG_QKENSAKU=?単語:検索中・・・(中止はESC)
+MSG_CHGDIC=辞書を変更／追加しました
+MSG_STOP=中止しました.
+MSG_NOTFIND2=見つかりませんでした.
+MSG_NOTFINDDIC=指定のパスに辞書は見つかりませんでした.
+MSG_SELDIC1=登録語編集する辞書を選んでください. 
+MSG_RECORDERR=登録ができませんでした
+MSG_ERASEERR=削除ができませんでした
+MSG_UPDATEERR=登録語修正ができませんでした
+MSG_NORMAL=正常終了しました
+MSG_NEEDSRCNAME=変換元ファイル名を指定してください
+MSG_NEEDDESTNAME=変換先ファイル名を指定してください
+MSG_FINISHED=終了しました
+MSG_OPTERROR=辞書のチェックを行ってください.\n最適化を中止します
+MSG_PDICTITLE=Personal Dictionary for Windows
+MSG_ILLEGALWINVER=Windowsのバージョンが古いので実行出来ません
+MSG_NEEDFILE1NAME=入力ﾌｧｲﾙ１を指定してください
+MSG_NEEDFILE2NAME=入力ﾌｧｲﾙ２を指定してください
+MSG_NEEDOUTNAME=出力ﾌｧｲﾙ名を指定してください
+MSG_EXIT=終了
+MSG_UNDEFINEDERROR=未定義エラーが発生しました.作者へご連絡ください.
+;MSG_ERRORFMODE=検索対象を１つ以上指定してください
+MSG_CHANGEJAPA=登録先に同じ見出語が登録されています.\n今まで修正したものが破棄されます.よろしいですか？
+MSG_CHANGERECDIC=登録先辞書の変更...
+MSG_FIXORNOT=辞書の自動修復を行いますか？(初回の場合はしない方が良い）
+MSG_NOSELDICS=辞書を１つ以上指定してください
+MSG_NEEDDELETEOPTION=削除条件を１つ以上指定してください
+MSG_NEEDFILENAME=ファイル名を指定してください
+MSG_FOUNDKANJI=漢字を発見したので中止します
+MSG_ALREADYEXIST=すでにﾌｧｲﾙが存在します
+MSG_OPTIMIZING=最適化を実行しています
+MSG_SAMEFILE=同じﾌｧｲﾙ名は指定できません
+MSG_SAMETODEF=変換ﾌｧｲﾙと欠落単語出力ﾌｧｲﾙが重複しています
+MSG_CANNOTOPEN=ファイルを開くことができません
+MSG_CANNOTOPENFILE=ファイル(%s)を開くことができません
+MSG_NOMORE_DICGROUP=辞書グループをこれ以上追加できません。最大１００個までです。
+MSG_NoMoreDictionary=これ以上辞書を追加できません。最大１００個までです。
+MSG_NEEDEXTRACTOPTION=検索対象を１つ以上指定してください
+MSG_NOTODOEXTRACT=見つかった単語の処理を指定してください
+MSG_CANNOTUSEITALIC=ｲﾀﾘｯｸ体は利用できません
+MSG_NOTRECORDED=＊＊＊登録なし＊＊＊
+MSG_WILLNOTRECORD=辞書が指定されていないので登録されません.よろしいですか？
+MSG_NOBWCC=BWCC.DLLが見つかりません.
+MSG_NEEDSELGROUP=辞書グループを選択または、登録して下さい
+MSG_NOWORD=見出語が入力されていません
+MSG_NOJAPA=訳語または用例が入力されていません
+MSG_INQCHANGEDIC=登録先辞書が変更されました.\r\r登録内容は移動/複写ですか？
+MSG_MOVE=移動(&M)
+MSG_COPY=複写(&D)
+MSG_CANCEL=ｷｬﾝｾﾙ(&C)
+MSG_NOTRECORDEDDELWORD=この単語は登録されていないので削除できません
+MSG_QCONVERTDIC=登録文字が長すぎるか、発音記号またはｵﾌﾞｼﾞｪｸﾄﾃﾞｰﾀがあるため古い辞書形式に書き込み出来ません.\n新しい辞書形式に変換しますか？
+MSG_CONVERTEDDIC=新しい辞書形式に変換しました
+MSG_BUFFERTOOSMALL=選択ﾌｧｲﾙが多すぎます！
+MSG_OPTSTOP=最適化を中止しました
+MSG_WRITELABEL=ラベルの保存
+MSG_READLABEL=ラベルの読込み
+MSG_CHILDSAVE=子リストも保存しますか？
+MSG_CANNOTCLOSEOBJECT=オブジェクトが編集中、または他で登録処理を実行中です. 処理を終了してください.
+MSG_ALREADYEXISTCREATE=すでにﾌｧｲﾙが存在しています.新規作成してよろしいですか？\n
+MSG_YES=はい(&Y)
+MSG_NO=いいえ(&N)
+MSG_EXISTEDITOBJECT=編集中のオブジェクトがあります.強制終了してよろしいですか？
+MSG_CANNOTOPENCB=クリップボードが使えません
+MSG_NEEDSEARCHSTRING=置換には検索文字列、検索対象または置換後の文字列の設定が必要です
+MSG_CANNOTREPLACEREXPDLL=REXP32.DLLでは置換はできません
+MSG_SELECTPLAYDIC=音声再生用の辞書を指定してください
+MSG_INPUTTEXT=テキストを入力してください
+MSG_FAILTOCOPYINI=ｺﾋﾟｰに失敗しました.初期化します.
+MSG_CLOSEOTHEREDITDIALOG=他のダイアログボックスを閉じて下さい
+MSG_CANNOTRECORD=【登録不可】
+MSG_CANNOTFINDDICGRP=辞書ｸﾞﾙｰﾌﾟ<%s>が見つかりません
+MSG_OPTIONERROR=ｺﾏﾝﾄﾞﾗｲﾝｵﾌﾟｼｮﾝに誤りがあります
+MSG_NEEDONELINEDELIM=１行ﾃｷｽﾄ形式の区切り文字を入力して下さい
+MSG_COULDNOTSAVE=保存できませんでした
+MSG_CouldNotSaveFile=<%s>を保存できません
+MSG_CANNOTMAKETEMPNAME=一時ファイル名が作成出来ません
+MSG_CANNOTCREATETEMP=一時ファイルが作成出来ません
+MSG_CANCELCHANGESIZE=中止しました
+MSG_COPYFAULT=コピーに失敗しました
+MSG_Q_CHANGESIZE=小さいサイズへの変換はすべて登録出来ないかもしれません.よろしいですか？
+MSG_Q_CHANGESIZE1=旧形式への変換では一部のデータ(発音記号,OLE,ﾌｧｲﾙﾘﾝｸ,音声)が失われたり、\n見出語,訳語の一部が欠落する恐れがあります.よろしいですか？
+MSG_NORECDIC=登録可能な辞書がありません
+MSG_SAMEFILENAME=変換元と変換先は同じファイル名を使用できません
+MSG_DICFORMATERROR=辞書形式エラー
+MSG_OldTypeDicErrorQ=%s\n古いタイプのPDIC用辞書です.新しい辞書に変換しますか？
+MSG_INPUTDESTDICFILENAME=変換先PDIC形式辞書ファイル名の入力
+MSG_OLDEPWING=DEPW.DLLが古いバージョンのためこの処理は実行できません
+MSG_NOTCHANGEDFOREDIT=編集中であるため変更されたネットワーク設定は反映されていません。辞書グループを再度開き直す必要があります。
+MSG_NOTOPENHISTFILE=履歴ファイルを開くことができません
+MSG_NOTOPENBOOKMARKFILE=ブックマークファイルを開くことができません
+MSG_BOOKMARK_FILE_CONFIG=ブックマークファイル名：
+MSG_CANNOT_BOOKMARK_EDITED_TEXT=変更されたテキストにブックマークはできません
+MSG_FILE_NOT_EXIST_CONFIRM=指定したファイルが存在しません。そのまま続けてもよろしいですか？
+MSG_NOTOPENLABELFILE=ラベリングファイルを開くことができません(%s)
+MSG_NOAUDIODATA=選択した見出し語に音声データは登録されていません
+MSG_RETURNALTM=表示を戻すには Alt+M を押してください
+MSG_ERR_CREATENETTEMP=エラー：ネットワーク用一時ファイルを作成できません
+MSG_Q_CLEARLASTID=サーバー上のデータを最初から取り込まれることになります。よろしいですか？
+MSG_TTS_NOTEXIST=SPKRB.DLLが見つかりません
+MSG_TTS_CMD=コマンドラインエラー
+MSG_TTS_COM=COM初期化エラー
+MSG_TTS_SAPI=SAPIがインストールされていません
+MSG_NO_PDIX=辞書変換ツール(PDix)が見つかりません
+MSG_ILLSRCHCFG=検索条件の組み合わせに誤りがあります
+MSG_CANNOTOPEN_HISTORYFILE=履歴ファイルを開くことができません
+MSG_NOTFINDDIC_WHICH=辞書<%s>が見つかりません.どの処理を行いますか？\r\r【注意】特別な場合を除き、同じファイル名の辞書を探してください。\r新規作成をすると空の辞書が作成されます。
+MSG_Q_FILENAME_DIFF=探している辞書が %s であるのにファイル名が異なる %s を指定しました。これでよろしいですか？
+MSG_NOTPDIC_CREATE=指定した辞書はPDIC形式ではありません.PDIC用に新規作成(上書き)しますか？
+MSG_CREATE_WORD_CONFIRM=[%s] すでに登録されている %d 語の単語はすべて消去されます。本当によろしいですか？
+
+MSG_NO_DICGROUPNAME=辞書グループ名が入力されていません
+MSG_SAME_DICGROUPNAME=すでに同じ辞書グループ名が登録されています
+MSG_Q_DICGROUP_RECOVER=現在の辞書グループの設定を破棄して、元に戻しますか？
+MSG_Q_SAVE_LOWERLAYER=下位層も保存しますか？
+MSG_CANNOT_SAVE_FILE=ファイルに保存することができません
+MSG_DISPOSE_EDIT=変更を破棄してもよろしいですか？
+MSG_FILEWRITEERROR=ファイルの書き込みエラーが発生しました
+MSG_FILEREADERROR=ファイルの読み込みエラーが発生しました
+MSG_DOYOUSAVEFILE=テキスト内容が変更されています。ファイルに保存しますか？
+MSG_CANNOTSAVEVIEWMODE=閲覧モードのファイルは保存できません
+MSG_LINENUMBER=行番号：
+MSG_CANNOTOUTPUT_PDICFORMAT=PDIC形式で指定の出力先へは出力できません
+MSG_DOYOUABORT=中止してもよろしいですか？
+MSG_RESERVE_IS_USED=予約部分に余計な文字が入っています！
+MSG_CANNOTFINDTITLE=[Title]が見つかりません
+MSG_INSERTDISKTO=ディスク %s を %s に入れてください
+
+MSG_SELECTDICFORTRANSLEVEL=単語レベル変換する辞書を選択して下さい
+MSG_SELECTDICFOREXTRACT=一括編集処理する辞書を選択して下さい
+MSG_SELECTDICFORRECORDQWORD=？単語一括登録する辞書を選択して下さい
+MSG_SELECTDICFORMERGE=一括単語登録する辞書を選択して下さい
+MSG_SELECTDICFOROPTIMIZATION=最適化する辞書を選択して下さい
+MSG_SELECTDICFORCHECK=チェックをする辞書を選択して下さい
+MSG_SELECTDICFORINIT=初期化する辞書を選択して下さい
+MSG_DOYOUABORTCONVERT=変換を中止してもよろしいですか？
+MSG_INPUTINI_WARNING=INIﾌｧｲﾙの取り込みはﾚｼﾞｽﾄﾘ(設定情報)を直接変更します.\r\rINIﾌｧｲﾙが異常であるとPDICの動作に支障を与える可能性があります.\r\r＜実行してもよろしいですか？＞
+MSG_INPUTINI_DONE=作業は正常に終了しました.\r\rPDICを再起動し直してください.\r
+MSG_CANNOTEXECUTESTATICOBJ=ｽﾀﾃｨｯｸｵﾌﾞｼﾞｪｸﾄであるため実行できません
+MSG_DODELETELANGMENU=この言語のメニューを削除してよろしいですか？
+MSG_CANNOTCREATEOUTPUTDIC=出力先辞書が作成できません
+MSG_ABORTOUTOFMEM=メモリ不足のため中止します
+MSG_ABORTDICRECOVERY=辞書修復は中止しました\n途中までの出力辞書は残します
+MSG_QUERY_SAVE=編集されています.保存しますか？
+MSG_QUERY_MODIFIED=編集されています。編集内容を破棄してもよろしいですか？
+MSG_CONFIRM_JRECORD=この単語には扱えないデータ(圧縮データ・OLEデータなど)が含まれているため、登録・修正を行うとそれらのデータが失われます。登録してもよろしいですか？
+MSG_CANNOTOUTPUTWITHPDIC=PDIC形式で指定の出力先へは出力できません
+MSG_QUERY_CONVERTTOPDIC=PDIC用の辞書ではありません.PDIC用辞書に変換しますか？
+MSG_QUERY_CREATEPDIC=指定した辞書はPDIC形式ではありません.PDIC用に新規作成(上書き)しますか？
+MSG_HINT_ESCCANCEL=ヒント：WORD欄の単語はEscキーで消去できます
+MSG_ONEMORECHECK=１つ以上指定してください
+MSG_NOTFOUND_PRONTBL=発音記号変換テーブル[%s]が見つからない/使用できません
+MSG_NOTSUPPORT_COMPNON=圧縮対応辞書から非圧縮辞書へは現在サポートされていません
+MSG_EncryptConvert=変換先のファイルはネット共有辞書で設定されている暗号化パスワードで暗号化されます
+MSG_RECOMMEND_OPTIMIZE=空きﾌﾞﾛｯｸ数が大きくなっています.辞書の最適化をお勧めします
+MSG_QUERY_DELETEFILELINKFILE=ファイルリンクのファイルも一緒に削除しますか？
+MSG_CANNOT_DELETE=削除できませんでした<%s>
+MSG_SEARCHING_TEST=検索中...
+MSG_EXTRA_PASSED= 補習合格！
+MSG_CONFIRM_DELHISTNODIC=辞書に無い単語を履歴から削除します.よろしいですか？
+MSG_NOHISTORY=履歴がありません
+MSG_NOHISTORYFILE=履歴ファイルがありません
+MSG_WRONGDIRTOEXECUTE=実行時のﾃﾞｨﾚｸﾄﾘが正しくありません
+MSG_HistorySearchNotSupportOutputScreen=出力先に画面はまだサポートされていません。
+MSG_CannotSaveInPortableMode=ポータブルモードでは保存できません。
+MSG_WRONG_COMBINATION=選択された辞書データからファイル出力はできません
+MSG_NEED_FILENAME_PSBM=ブックマークするにはファイルへ保存する必要があります。保存しますか？
+MSG_OVERWRITE_CONFIRM=%s\nこのファイルを上書きします。
+
+MSG_NOTFIND3=Not found.
+MSG_SEARCHING=Searching...
+MSG_SUBSEARCHING=Searching...(background)
+MSG_MODIFIED=Modified.
+MSG_RECORDED=Recorded.
+MSG_ERASED=Deleted.
+MSG_MOVED=Moved.
+MSG_COPIED=Copied.
+MSG_LOADING=Loading...
+MSG_OpenError=Open error.
+
+; ----------------
+; Regular Expression Messages
+
+RGS_CANNOTUSE=正規表現検索が使えません
+RGS_ERROR=不明のエラーが発生しました
+RGS_NOTREADY=正規表現検索用のDLLが利用できません
+RGS_MEMORY=メモリが不足しています
+RGS_TOOLONG=正規表現が長すぎます
+RGS_COMPLEX=正規表現が複雑すぎます
+RGS_BRACKET=括弧()が正しく対応していません
+RGS_CHARCLASS=キャラクタクラス[]内が正しくありません
+RGS_ESCAPE=ｴｽｹｰﾌﾟｼｰｹﾝｽが不正です
+RGS_SYNTAX=正規表現が正しくありません
+RGS_UNEXPECTED=未定義エラーが発生しました
+RGS_DLLBUG=正規表現検索のDLLでエラーが発生しました.\nDLLの作者か、PDICの作者に連絡を下さい.
+RGS_APPBUG=PDICのバグが発生しました.\n作者に連絡してください.
+RGS_VERSION=正規表現検索のDLLのバージョンが違うので実行できません
+RGS_NOSTRINGS=検索文字列を指定してください
+RGS_STOP=
+RGS_NOREGULAR=正規表現ではありません
+
+; ----------------
+; EPWING messages
+
+MSG_EPWConversion=EPWING変換
+MSG_EPWNotFoundVerDiff=が見つからない・バージョンが違います
+MSG_EPWCanInitDict=変換先は空の辞書でなければなりません.初期化してもよろしいですか？\r(内容はすべて失われまず)
+
+; ================
+; Caption
+
+; ----------------
+; Popup Window
+
+CAP_FILTER=外部フィルター処理
+CAP_EXECCMD=実行ｺﾏﾝﾄﾞ
+CAP_EXECDIR=実行時ﾃﾞｨﾚｸﾄﾘ
+
+; ----------------
+; Search
+
+CAP_SEARCHALL=全文検索
+CAP_SearchBookmark=単語帳の検索
+
+; ----------------
+; Other
+
+CAP_JEDITDLG=登録語編集
+CAP_JEDITDLG_OLD=修正
+CAP_JEDITDLG_NEW=新規登録
+CAP_SYNONYM=同義語辞書作成
+CAP_DELETEDIC=辞書の登録削除
+CAP_DELETEDICGRP=辞書グループの登録削除
+CAP_DELETEWORD=単語の削除
+CAP_IDOK=&OK
+CAP_DICNOTEXIST=辞書のオープンエラー
+CAP_PDCHKFILE=チェックする辞書ファイル
+CAP_PDOPT=辞書の最適化
+CAP_OUTFILENAME=出力(変換先)ファイル名
+CAP_SRCFILENAME=変換元ファイル名
+CAP_ADDDIC=辞書の追加
+CAP_UTYDELETEFILE=一括削除するファイル
+CAP_SEARCHDETAIL=詳細設定検索
+CAP_SEARCHLEVEL=単語ﾚﾍﾞﾙの検索
+CAP_CONVERT=辞書の変換
+CAP_DEFFILENAME=欠落単語出力ファイル名
+CAP_TRANSFILENAME=変換ファイル
+CAP_SRC1FILENAME=辞書１ファイル
+CAP_SRC2FILENAME=辞書２ファイル
+CAP_CHOOSEFONT=フォントの選択
+CAP_DICGROUP=辞書グループ
+CAP_REGULAREXPRESSION=正規表現検索
+CAP_SEARCH=検索
+CAP_MERGE=マージする辞書
+CAP_SELECTDIC=登録/修正する辞書を選択して下さい
+CAP_SPELLCHKFILE=ｽﾍﾟﾙﾁｪｯｸするﾌｧｲﾙ
+CAP_EDITORFILENAME=エディタファイル名
+CAP_INQCHANGEDIC=登録先辞書の変更
+CAP_CONVERTDIC=辞書形式の変換
+CAP_USERDLL=ﾕｰｻﾞｰ形式用のDLLﾌｧｲﾙ
+CAP_SELOBJECTFILE=ﾌｧｲﾙﾘﾝｸｵﾌﾞｼﾞｪｸﾄの選択
+CAP_WTEST=単語テスト
+CAP_WTEST_MEMORYMARK=暗記マーク(&M)
+CAP_LEVELCONFIG=単語レベル対応
+CAP_CREATEDIC=辞書の新規作成
+CAP_OBJTITLE=タイトルの編集
+CAP_SETEXTENSION=テキスト表示の拡張子の設定
+CAP_EDITFILENAME=ファイル名の変更
+CAP_SELECTFILE=ファイルの選択
+CAP_EXECUTEOBJECT=オブジェクトの実行
+CAP_SUBLISTLABEL=新規:子リスト名
+CAP_EDITLABEL=ラベルテキスト編集
+CAP_NEWLABELITEM=新規:ラベルテキスト
+CAP_EDITSUBLISTLABEL=子リスト名編集
+CAP_CHECKDICTIONARY=辞書のチェック
+CAP_ADDPLAYDIC=音声再生用辞書の追加
+CAP_SAVEWTESTPROFILE=テストプロファイル保存
+CAP_LOADWTESTPROFILE=テストプロファイル読込み
+CAP_PROFILENAME=ﾌﾟﾛﾌｧｲﾙ名:
+CAP_EXECFILE=ファイルの実行
+CAP_POPUPSRCH=PDIC Popup Search
+CAP_FINDSTRINGS=文字列の検索
+CAP_CHANGESIZE=辞書のサイズ/種別の変更
+CAP_AUTOINSTALL=辞書の自動ｲﾝｽﾄｰﾙ
+CAP_WAVERECORDFILE=音声ﾃﾞｰﾀ一括登録用ﾌｧｲﾙﾘｽﾄの選択
+CAP_SELOBJECTWAVE=WAVEﾃﾞｰﾀｵﾌﾞｼﾞｪｸﾄの選択
+CAP_OPENEPWINGFILE=EPWINGファイルの選択
+CAP_OPENGTRANSFILE=外字変換ファイルの選択
+CAP_OPENFLINKPATH=ファイルリンクパスを選択してください
+CAP_INIOUT=設定のINIﾌｧｲﾙへの出力
+CAP_INIIN=INIﾌｧｲﾙの設定への読み込み
+CAP_ALLSEARCH=全検索
+CAP_CLEARLASTID=LastIDの初期化
+CAP_PLAYTTS=人工音声再生
+CAP_MARKHISTORY=履歴単語のマーク
+CAP_CHANGELEVEL=レベルの変更
+CAP_CREATE_DIC=辞書の初期化
+CAP_READFILE=ファイルの読み込み
+CAP_WRITEFILE=ファイルの書き込み
+CAP_GOTOLINE=指定行へ移動
+CAP_HIDEMENU=ﾒﾆｭｰ消去
+CAP_DICINSTALL=辞書のインストール
+
+CAP_INITIALIZEDIC=辞書の初期化
+CAP_DICCONVERT=辞書の変換
+CAP_DICOPENERROR=辞書のオープンエラー
+CAP_LAUNCHNEWPDIC=新しいPDICを開く
+CAP_CREATENEWGROUP=辞書ｸﾞﾙｰﾌﾟ新規作成
+CAP_EDITOLE=OLEの編集
+CAP_ADDLANG=言語の追加
+CAP_DELETELANG=言語の削除
+CAP_DICCHECK=辞書チェック
+CAP_DICCHECKERR=辞書チェックエラー
+CAP_JRECORD=単語の登録・修正
+CAP_RECORDWORDS=一括登録 - 
+CAP_EDITRECORDEDJAPA=登録訳語の修正
+CAP_DELETEFILE=ファイルの削除
+CAP_SEARCH_HISTORY=履歴単語の検索
+CAP_DELHIST=履歴削除
+
+CAP_BOOKMARK="ブックマーク"
+CAP_BOOKMARK_FILE_CONFIG=ブックマークファイルの設定
+
+; ----------------
+; from depcom.rc
+
+CAP_NEEDEPWINGFILE=EPWING/EBﾌｧｲﾙが指定されていません
+CAP_ERROR=エラー
+CAP_DELETEITEM=項目の削除
+
+; ----------------
+; Button Caption
+
+CAPBTN_DICGROUP= 辞書ｸﾞﾙｰﾌﾟ
+CAPBTN_AUTOSRCH= 自動検索
+

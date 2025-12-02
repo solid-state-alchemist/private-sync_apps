@@ -1,0 +1,7 @@
+{
+	"name": "com.reliefoffice.pdic",
+	"description": "Personal Dictionary/Unicode pipe",
+	"path": "pdic-pipe.exe",
+	"type": "stdio",
+	"allowed_extensions": [ "sgm00353@nifty.ne.jp", "{9f8816f0-c3a1-11dd-ad8b-0800200c9a66}" ]
+}

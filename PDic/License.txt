@@ -1,0 +1,82 @@
+======================== ライセンス条項 ===========================
+
+同梱するファイルのいくつかは、以下に述べるそれぞれのライセンス条項に従います。
+それ以外についてはPDICのヘルプ等に記載してあります。
+不明な点がある場合は勝手に判断されず、PDIC作者までお問い合わせください。
+
+===================================================================
+
+[LiteZip.dll/LiteUnzip.dll]
+
+http://www.codeproject.com/KB/library/LiteZip.aspx
+
+===================================================================
+
+[nkfu.dll]
+http://sourceforge.jp/projects/nkf/
+
+ここにあるNKFをTaNがDLL用のwrapperを作り直したものです。
+修正版のソースコードはここにあります。
+http://pdic.la.coocan.jp/unicode/dev.html
+
+/*
+ * Copyright (c) 1987, Fujitsu LTD. (Itaru ICHIKAWA).
+ * Copyright (c) 1996-2009, The nkf Project.
+ *
+ * This software is provided 'as-is', without any express or implied
+ * warranty. In no event will the authors be held liable for any damages
+ * arising from the use of this software.
+ *
+ * Permission is granted to anyone to use this software for any purpose,
+ * including commercial applications, and to alter it and redistribute it
+ * freely, subject to the following restrictions:
+ *
+ * 1. The origin of this software must not be misrepresented; you must not
+ * claim that you wrote the original software. If you use this software
+ * in a product, an acknowledgment in the product documentation would be
+ * appreciated but is not required.
+ *
+ * 2. Altered source versions must be plainly marked as such, and must not be
+ * misrepresented as being the original software.
+ *
+ * 3. This notice may not be removed or altered from any source distribution.
+ */
+
+===================================================================
+
+[regexpp.dll]
+
+Dr. JohnMaddockに著作権があります。
+Dr. JohnMaddockが作成したものをTaNがDLL化しました。
+
+===================================================================
+
+[bregonig.dll]
+
+http://k-takata.o.oo7.jp/mysoft/bregonig.html
+こちらのbregonig.dllをそのまま利用しています。
+GPLまたはArtistic Licenseのいずれか
+
+===================================================================
+
+[文字コード変換テーブル]
+
+  CP1250.TXT
+  CP1251.TXT
+  CP1252.TXT
+  CP1253.TXT
+  CP1254.TXT
+  CP1255.TXT
+  CP1256.TXT
+  CP1257.TXT
+  CP1258.TXT
+  CP874.TXT
+  CP932.TXT
+  CP936.TXT
+  CP949.TXT
+  CP950.TXT
+
+PDIC以外で再利用される場合はファイルに記載されている著作者に確認をとってください。
+これらは http://www.unicode.org/ からダウンロードされたファイルです。
+
+===================================================================

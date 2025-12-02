@@ -1,0 +1,10 @@
+{
+	"name": "com.reliefoffice.pdic",
+	"description": "Personal Dictionary/Unicode pipe",
+	"path": "pdic-pipe.exe",
+	"type": "stdio",
+	"allowed_origins": [
+		"chrome-extension://ldidobiipljjgfaglokcehmiljadanle/",
+		"chrome-extension://afbfmlbmnbghpmjgnlmhgpjedehedpnj/"
+	 ]
+}

@@ -1,0 +1,524 @@
+#Level:0
+ají	at
+ající	at
+ami	a
+at	e
+ata	e
+atech	e
+aty	e
+atům	e
+ce	k
+cen	tit
+cena	tit
+ceni	tit
+ceno	tit
+ceny	tit
+cená	tit
+cené	tit
+cení	tit
+cený	tit
+ct	ci
+cích	k
+ej	at
+eji	e
+ejme	at
+ejte	at
+emi	e
+etem	e
+eti	e
+l	t
+la	t
+li	t
+lo	t
+ly	t
+lý	t
+ne	ít
+neme	ít
+nete	ít
+neš	ít
+noucí	ít
+ného	t
+ném	t
+nému	t
+něte	ít
+ova	
+ovi	
+ovo	
+ovou	
+ovu	
+ovy	
+ové	
+ových	
+ovým	
+ově	
+to	t
+tou	t
+tá	t
+té	t
+tého	t
+tém	t
+tému	t
+tí	t
+tý	t
+tých	t
+tým	t
+tými	t
+uj	ovat
+uje	ovat
+ujeme	ovat
+ujete	ovat
+uješ	ovat
+uji	ovat
+ujme	ovat
+ujou	ovat
+ujoucí	ovat
+ujte	ovat
+uju	ovat
+ují	ovat
+ující	ovat
+ze	g
+zen	dit
+zena	dit
+zeni	dit
+zeno	dit
+zeny	dit
+zená	dit
+zené	dit
+zení	dit
+zený	dit
+zích	g
+ách	a
+ám	at
+áme	at
+áte	at
+áš	at
+íme	ít
+íte	ít
+íš	ít
+čejší	ký
+čejších	ký
+čejšího	ký
+čejším	ký
+čejšími	ký
+čejšímu	ký
+čin	ka
+čina	ka
+čini	ka
+čino	ka
+činou	ka
+činu	ka
+činy	ka
+činých	ka
+činým	ka
+činými	ka
+čině	ka
+čtější	cký
+čtějších	cký
+čtějšího	cký
+čtějším	cký
+čtějšími	cký
+čtějšímu	cký
+ěji	ě
+ějme	ět
+ějte	ět
+ějí	ět
+ějící	ět
+ěm	
+ěme	out
+ěmi	
+ětem	ě
+ěti	ě
+ře	r
+řin	ra
+řina	ra
+řini	ra
+řino	ra
+řinou	ra
+řinu	ra
+řiny	ra
+řiných	ra
+řiným	ra
+řinými	ra
+řině	ra
+še	ch
+šin	cha
+šina	cha
+šini	cha
+šino	cha
+šinou	cha
+šinu	cha
+šiny	cha
+šiných	cha
+šiným	cha
+šinými	cha
+šině	cha
+štější	ský
+štějších	ský
+štějšího	ský
+štějším	ský
+štějšími	ský
+štějšímu	ský
+ů	
+ův	
+žejší	hý
+žejších	hý
+žejšího	hý
+žejším	hý
+žejšími	hý
+žejšímu	hý
+žin	ga
+žina	ga
+žini	ga
+žino	ga
+žinou	ga
+žinu	ga
+žiny	ga
+žiných	ga
+žiným	ga
+žinými	ga
+žině	ga
+#Level:1
+at	ě
+ata	ě
+atech	ě
+aty	ě
+atům	ě
+ce	ka
+cích	ko
+ejší	ý
+ejších	ý
+ejšího	ý
+ejším	ý
+ejšími	ý
+ejšímu	ý
+em	e
+emi	
+en	it
+ena	it
+eni	it
+eno	it
+eny	it
+ená	it
+ené	it
+ení	it
+ený	it
+j	t
+je	t
+jeme	t
+jete	t
+ješ	t
+ji	t
+jme	t
+jou	t
+joucí	t
+jte	t
+ju	t
+jí	t
+jící	t
+l	nout
+la	nout
+li	nout
+lo	nout
+ly	nout
+lý	nout
+ovi	e
+ové	e
+ti	t
+ze	h
+zích	h
+ám	a
+ého	ý
+ém	ý
+ému	ý
+íme	ět
+íte	ět
+íš	ět
+ější	í
+ějších	í
+ějšího	í
+ějším	í
+ějšími	í
+ějšímu	í
+ěm	ě
+ěmi	ě
+ěte	ě
+ře	ra
+še	cha
+ů	e
+žin	ha
+žina	ha
+žini	ha
+žino	ha
+žinou	ha
+žinu	ha
+žiny	ha
+žiných	ha
+žiným	ha
+žinými	ha
+žině	ha
+#Level:2
+ce	ko
+ech	o
+em	o
+eme	out
+ete	out
+eš	out
+in	a
+ina	a
+ini	a
+ino	a
+inou	a
+inu	a
+iny	a
+iných	a
+iným	a
+ině	a
+ná	t
+né	t
+ní	t
+ný	t
+nými	t
+oucí	out
+ovi	a
+ta	t
+ty	t
+ze	ga
+zích	go
+ící	ít
+ější	ý
+ějších	ý
+ějšího	ý
+ějším	ý
+ějšími	ý
+ějšímu	ý
+ěte	out
+ře	ro
+še	cho
+ů	a
+ům	a
+#Level:3
+ech	
+em	
+eme	at
+ete	at
+eš	at
+in	e
+ina	e
+ini	e
+ino	e
+inou	e
+inu	e
+iny	e
+iných	e
+iným	e
+ině	e
+oucí	at
+ze	ha
+zích	ho
+á	ý
+é	a
+ící	ět
+ího	í
+ím	
+ími	í
+ímu	í
+ými	ý
+ších	cho
+ům	o
+#Level:4
+ech	a
+eme	t
+ete	e
+eš	t
+mi	
+n	t
+na	t
+ni	t
+no	t
+nou	t
+nu	ít
+ny	t
+ných	t
+ným	t
+oucí	t
+ze	go
+á	at
+é	ý
+ím	e
+ě	o
+ších	ch
+ům	
+#Level:5
+a	o
+eme	ít
+ete	t
+eš	ít
+ni	ít
+nou	ít
+o	a
+oucí	ít
+y	o
+ze	ho
+ích	e
+ím	ít
+ých	ý
+ým	ý
+ě	a
+ům	e
+#Level:6
+a	
+ete	ít
+i	
+me	ít
+ou	t
+y	
+í	ět
+ích	í
+ím	ět
+ě	
+#Level:7
+i	e
+me	out
+ou	ít
+te	out
+y	a
+í	ý
+ích	
+ím	í
+#Level:8
+i	ít
+me	ět
+ou	out
+te	ět
+í	
+#Level:9
+i	out
+me	at
+ou	at
+te	at
+í	e
+#Level:10
+me	t
+ou	ý
+te	t
+í	ít
+#Level:11
+ou	a
+te	ít
+#Level:12
+e	t
+u	a
+#Level:13
+e	ít
+u	o
+#Level:14
+e	out
+u	t
+#Level:15
+e	at
+u	ít
+#Level:16
+e	
+u	out
+#Level:17
+e	a
+u	at
+#Level:18
+u	
+#AppendWord:
+t
+ít
+out
+ět
+at
+a
+o
+#ConsDef:
+b
+c
+d
+f
+g
+h
+ch
+k
+l
+m
+n
+ň
+p
+r
+s
+š
+t
+v
+z
+ž
+#Prefix:
+do
+na
+nad
+nade
+o
+ob
+obe
+od
+ode
+ote
+po
+pod
+pode
+pro
+pře
+před
+přede
+při
+roz
+roze
+s
+se
+u
+v
+ve
+vy
+vz
+vze
+z
+ze
+za
+#Consonant:
+c	k
+č	k
+z	g
+ž	g
+š	ch
+z	h
+ž	h
+ř	r
+š	s
+ž	z
+šl	sl
+šť	sk
+št	sk
+čť	ck
+čt	ck
+čc	čk
+c	t
+ť	t
+z	d
+ď	d
+šť	st
+št	st
+žď	zd
+žd	zd
+ň	n
+#HauntMid:
+ti	ťi
+tí	ťí
+tě	ťě
+di	ďi
+dí	ďí
+dě	ďě
+ni	ňi
+ní	ňí
+ně	ňě
