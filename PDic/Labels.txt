@@ -1,0 +1,136 @@
+;BeginChild	社会
+法律
+政治
+経済
+商業
+簿記
+国名
+地名
+州
+人名
+;EndChild
+;BeginChild	生活
+諺
+保険
+祝祭日
+服飾
+図書
+写真
+映画
+測量
+狩猟
+窯業
+畜産
+;EndChild
+;BeginChild	医学・薬学
+医学
+薬学
+心理
+歯科
+病理
+遺伝
+解剖
+;EndChild
+;BeginChild	言語
+ギリシア語
+ラテン語
+ドイツ語
+スペイン語
+フランス語
+ロシア語
+ポルトガル語
+オランダ語
+イタリア語
+日本語
+口語
+文語
+文法
+;EndChild
+;BeginChild	人文
+人文
+歴史
+哲学
+倫理学
+論理学
+人類学
+音楽
+美術
+彫刻
+演劇
+;EndChild
+;BeginChild	宗教
+宗教
+カトリック
+プロテスタント
+旧約聖書
+新約聖書
+キリスト教
+ユダヤ教
+ギリシア正教
+ギリシア神話
+ローマ神話
+北欧神話
+;EndChild
+;BeginChild	スポーツ
+スポーツ
+バスケットボール
+ボクシング
+フットボール
+野球
+レスリング
+フェンシング
+水泳
+;EndChild
+;BeginChild	動物
+動物
+哺乳類
+鳥
+魚
+爬虫類
+虫
+;EndChild
+;BeginChild	植物
+植物
+花
+;EndChild
+;BeginChild	理学
+理学
+物理
+化学
+生物
+数学
+地学
+天文
+光学
+鉱物
+結晶
+気象
+統計
+;EndChild
+;BeginChild	工学
+光
+工学
+電気
+電子
+情報
+応化
+土木
+建築
+機械
+;EndChild
+;BeginChild	海・空・宇宙
+月
+星座
+惑星
+航海
+航空
+宇宙
+;EndChild
+;BeginChild	農林
+農業
+林業
+園芸
+;EndChild
+印刷
+軍事
+計算機
